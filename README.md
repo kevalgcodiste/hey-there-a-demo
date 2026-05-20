@@ -1,34 +1,25 @@
-# Hey There A Demo
+# hey-there-a-demo
 
-This repository is a demonstration of a Next.js and React.js application.
+Small demo snippets in:
+- Python (`python/`)
+- TypeScript (`typescript/`)
+- Go (`go/`)
 
-## Getting Started
+## Run
 
-To get started with this project, clone the repository and install the dependencies:
-
+### Python
 ```bash
-git clone https://github.com/kevalgcodiste/hey-there-a-demo.git
-cd hey-there-a-demo
-npm install
+python python/hello.py
 ```
 
-## Running the Development Server
-
-You can run the development server with the following command:
-
+### TypeScript
 ```bash
-npm run dev
+npm i -D typescript
+npx tsc -p typescript/tsconfig.json
+node typescript/dist/index.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Learn More
-
-To learn more about Next.js and React.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [React.js Documentation](https://reactjs.org/docs/getting-started.html) - learn about React.js features and API.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com) from the creators of Next.js.
+### Go
+```bash
+go run go/main.go
+```
